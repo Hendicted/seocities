@@ -10,3 +10,7 @@ this is just a fun project i made to see how much i suck at php.
 
 # progress
 i have made some progress, i still need to know more about sql.
+# limitations
+as of now, you cannot:
+1. upload files (like pictures)
+2. edit the websites

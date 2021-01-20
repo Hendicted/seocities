@@ -13,6 +13,7 @@ if($result->num_rows == 0) {
     exit("Wrong password!");
 }
 deleteDirectory($postName);
+$conn->query("DELETE FROM sites WHERE NAME='$postName';");
 $contents = file_get_contents("sites.html");
 $contents = str_replace("<li><a href='$address/$postName'>$postName</a></li><br>", "", $contents);
 file_put_contents("sites.html", $contents);
