@@ -8,7 +8,7 @@ if(strpos($postName, "/") !== false) exit("Your title contains an illegal charac
 if ($postName == null || $postPass == null) exit("You forgot to input on one of the fields.");
 $conn = new mysqli($QL_SERVER, $sqlusername, $sqlpassword);
 $conn-> select_db($database);
-$result = $conn->query("SELECT PASSWORD FROM sites WHERE PASSWORD = '$postPass'");
+$result = $conn->query("SELECT PASSWORD FROM sites WHERE NAME='$postName' AND PASSWORD = '$postPass'");
 if($result->num_rows == 0) {
     exit("Wrong password!");
 }
