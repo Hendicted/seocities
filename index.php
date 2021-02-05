@@ -13,12 +13,13 @@
             </tr>
             <tr>
                 <td>Password:</td>
-                <td><textarea name="pass"></textarea></td>
+                <td><input type="password" name="pass"></input></td>
             </tr>
         </table>
     </form>
 </div>
 <hr>
+
 <h2>Delete Site</h2>
 <div id="delete">
     <form action="delete.php" method="post">
@@ -29,8 +30,8 @@
             </tr>
             <tr>
                 <td>Password:</td>
-                <td><textarea name="pass"></textarea></td>
-            </tr
+                <td><input type="password" name="pass"></input></td>
+            </tr>
         </table>
     </form>
 </div>
@@ -41,11 +42,11 @@
 </center>
 <script src="https://codemirror.net/lib/codemirror.js"></script>
 <link rel="stylesheet" href="https://codemirror.net/lib/codemirror.css">
-<link rel="stylesheet" href="./skins/bootstrap.min.css">
+<link rel="stylesheet" href="./assets/bootstrap.min.css">
 <script src="https://codemirror.net/mode/javascript/javascript.js"></script>
 <style>
     body {
-        background-image: url("./skins/space.gif");
+        background-image: url("./assets/space.gif");
     }
 </style>
 
