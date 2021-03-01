@@ -35,6 +35,22 @@
         </table>
     </form>
 </div>
+<hr>
+<h2>Edit Site</h2>
+<div id="delete">
+    <form action="edit.php" method="post">
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td> <input type="text" name="name"><input type="submit" value="Post"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="pass"></input></td>
+            </tr>
+        </table>
+    </form>
+</div>
 
 <center>
     <table border="10" cellpadding="0" width="488">
